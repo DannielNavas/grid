@@ -26,6 +26,20 @@ main {
 
 .dishes {
     margin: 100px 0;
+}
+
+.dishes-title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+.dishes-grid {
+
     display: grid;
     grid-template-columns: repeat(4, minmax(150px, 200px));
     grid-auto-rows: 1fr;
